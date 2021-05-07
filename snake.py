@@ -45,9 +45,9 @@ def move():
     clear()
 
     for body in snake:
-        square(body.x, body.y, 9, 'black')
+        square(body.x, body.y, 9, 'green')   #Se le cambió el color a la serpiente de negro a verde
 
-    square(food.x, food.y, 9, 'green')
+    square(food.x, food.y, 9, 'yellow')    # Se cambió el color de la comida a amarillo también
     update()
     ontimer(move, 100)
 
